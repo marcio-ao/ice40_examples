@@ -1,0 +1,21 @@
+# example.pcf
+set_io --warn-no-port led1 99
+set_io --warn-no-port led2 98
+set_io --warn-no-port led3 97
+set_io --warn-no-port led4 96
+set_io --warn-no-port led5 95
+set_io --warn-no-port hwclk 21
+
+set_io --warn-no-port step_x   78 # PIO1_02 PMOD Left Row 1
+set_io --warn-no-port step_y   79 # PIO1_03 PMOD Left Row 2
+set_io --warn-no-port step_z   80 # PIO1_04 PMOD Left Row 3
+set_io --warn-no-port step_e   81 # PIO1_05 PMOD Left Row 4
+
+set_io --warn-no-port dir_x   87 # PIO1_06 PMOD Right Row 7
+set_io --warn-no-port dir_y   88 # PIO1_07 PMOD Right Row 8
+set_io --warn-no-port dir_z   90 # PIO1_08 PMOD Right Row 9
+set_io --warn-no-port dir_e   91 # PIO1_09 PMOD Right Row 10
+
+# FTDI / UART pins
+set_io --warn-no-port ftdi_tx 8
+set_io --warn-no-port ftdi_rx 9
